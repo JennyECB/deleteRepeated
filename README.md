@@ -1,16 +1,4 @@
 # deleteRepeated
 Remove repeated consecutive letters
 
-function notLetterRepeat(string){
-    let list = string.split('');
-    let newArray = [];
-    for (let i = 0; i < list.length; i++){
-        if (list[i]!==list[i+1] && list[i]!==newArray[newArray.length]){
-            newArray.push(list[i])
-        }
-    }
-    let newString = newArray.join('');
-    return newString;
-    console.log(newString)
-    }
-console.log(notLetterRepeat('abbrra')) //'abra'
+Para una prueba técnica me pidieron que escribiera un código que recibiera un string y lo devolviera sin letras contíguas repetidas (ejemplo "abbabcc" debía retornar "ababc"). En el momento no lo pude realizar ya que no se podía consultar y no tenía repasados los métodos de arrays, pero al día siguiente me senté a resolverlo y la verdad que fue muy divertido :) así que lo comparto.
